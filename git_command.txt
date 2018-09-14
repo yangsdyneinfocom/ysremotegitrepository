@@ -1,0 +1,15 @@
+﻿1.安装git后,设置用户名及其email
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+2.创建版本库
+显示当前目录
+$ pwd
+如:/d/myrepository
+创建仓库
+$ git init Initialized empty Git repository in /d/myrepository/.git/
+加文件到仓库
+$ git add readme.txt
+文件提交到仓库:-m 文件说明.如版本号等
+$ git commit -m "wrote a readme file" //提交多个
+$ git commit file.xxx -m "wrote a readme file"//提交一个
+aaaa
